@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Academy Choucair" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-04-01T06:45:05" hostname="adrian-HP-14-Notebook-PC" time="0.051">
+<testsuite name="Academy Choucair" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-04-01T08:46:02" hostname="adrian-HP-14-Notebook-PC" time="0.066">
   <properties/>
-  <testcase name="Search for a automation course" classname="Academy Choucair" time="0.051">
+  <testcase name="Search for a automation course" classname="Academy Choucair" time="0.066">
     <skipped/>
   </testcase>
   <system-out><![CDATA[]]></system-out>

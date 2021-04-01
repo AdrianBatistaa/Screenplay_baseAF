@@ -2,3 +2,11 @@ tasks/OpenUp.java
  tasks.OpenUp
 userinterface/ChoucairAcademyPage.java
  userinterface.ChoucairAcademyPage
+tasks/Login.java
+ tasks.Login
+userinterface/SearchCoursePage.java
+ userinterface.SearchCoursePage
+userinterface/ChoucairLoginPage.java
+ userinterface.ChoucairLoginPage
+tasks/Search.java
+ tasks.Search
