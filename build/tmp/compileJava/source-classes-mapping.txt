@@ -2,13 +2,15 @@ tasks/OpenUp.java
  tasks.OpenUp
 userinterface/ChoucairAcademyPage.java
  userinterface.ChoucairAcademyPage
-tasks/Login.java
- tasks.Login
+tasks/Search.java
+ tasks.Search
 userinterface/ChoucairLoginPage.java
  userinterface.ChoucairLoginPage
 questions/Answer.java
  questions.Answer
 userinterface/SearchCoursePage.java
  userinterface.SearchCoursePage
-tasks/Search.java
- tasks.Search
+tasks/Login.java
+ tasks.Login
+model/AcademyChoucairData.java
+ model.AcademyChoucairData

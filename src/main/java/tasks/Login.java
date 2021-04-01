@@ -7,16 +7,26 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import userinterface.ChoucairLoginPage;
 
+
+
 public class Login implements Task {
-    public static Login onThePage() {
-        return Tasks.instrumented(Login.class);
+
+
+    private String srtUser;
+    private String srtPassword;
+    public Login(String srtUser, String srtPassword) {
+        this.srtUser = srtUser;
+        this.srtPassword = srtPassword;
+    }
+    public static Login onThePage(String strUSer, String strPassword) {
+        return Tasks.instrumented(Login.class,strUSer,strPassword);
     }
 
     @Override
     public <T extends Actor> void performAs(T actor) {
     actor.attemptsTo(Click.on(ChoucairLoginPage.LOGIN_BUTTON),
-            Enter.theValue("IngresaTuUsuario").into(ChoucairLoginPage.INPUT_USER),
-            Enter.theValue("IngresaTuContraseña").into(ChoucairLoginPage.INPUT_PASSWORD),
+            Enter.theValue(srtUser).into(ChoucairLoginPage.INPUT_USER),
+            Enter.theValue(srtPassword).into(ChoucairLoginPage.INPUT_PASSWORD),
             Click.on(ChoucairLoginPage.ENTER_BUTTON)
             );
     }
